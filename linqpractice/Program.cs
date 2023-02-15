@@ -11,14 +11,14 @@ internal class Program
 
         //LinqQuery
 
-        //var linqquery = from n in name1
-        //                where n.Contains('s')
-        //                select n;
+        var linqquery = from n in name1
+                        where n.Contains('s')
+                        select n;
 
-        //foreach (var name in linqquery)
-        //{
-        //    Console.WriteLine(name);
-        //}
+        foreach (var name in linqquery)
+        {
+            Console.WriteLine(name);
+        }
 
 
         //Method Syntax
